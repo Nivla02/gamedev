@@ -85,7 +85,7 @@ class Mario:
         self.mario_img = pygame.image.load('maryo.png')
         self.mario_img_rect = self.mario_img.get_rect()
         self.mario_img_rect.left = 20
-        self.mario_img_rect.top = WINDOW_HEIGHT/2 - 100
+        self.mario_img_rect.top = WINDOW_HEIGHT/2 - 101
         self.down = True
         self.up = False
 
